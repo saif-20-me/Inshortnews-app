@@ -1,0 +1,40 @@
+.content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.downloadMessage{
+    width:95%;
+    display:flex;
+    align-items:center;
+    background:#f44336;/* for the color of the top header message*/
+    height: 48px;
+    padding:0 40px;
+    margin: 20px 0 35px 0;
+    color: antiquewhite;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0;
+}
+.downloadText{
+    flex: 1;
+}
+
+/* media query for md, sm screen*/
+@media (max-width: 995px){
+    .downloadMessage{
+        display: none;
+    }
+    
+}
+
+.loadMore{
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16) 0 2px 10px 0;
+    padding: 7px 25px;
+    font-size: 13px;
+    margin-top: -20px;
+}

@@ -1,0 +1,11 @@
+/* for styling the nav class*/
+.nav{
+    height:71px;
+    box-shadow: 0px 1px 8px #888;
+    display: flex;
+    align-items: center;
+}
+/* for styling of icon img*/
+.icon{
+    flex:0.48
+}
